@@ -12,7 +12,7 @@ class AlienInvasion:
     """Overall class to manage game's assets and behavior"""
 
     def __init__(self):
-        """Initialises the pygame and creates the game's resources"""
+        """Initializes the pygame and creates the game's resources"""
         pygame.init()
         self.settings = Settings()
         self.screen = pygame.display.set_mode((self.settings.screen_width, self.settings.screen_height), 0, 32)
